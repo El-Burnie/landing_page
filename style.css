@@ -1,3 +1,13 @@
 body {
     min-height: 100vh;
 }
+
+.header ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.header a {
+    text-decoration: none;
+}
