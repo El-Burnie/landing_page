@@ -10,9 +10,11 @@ button {
     color: #F9FAF8;
     background-color: #3882F6;
     font-size: 18px;
+    width: 132px;
     padding: 8px 32px;
     border: 0;
     border-radius: 8px;
+    flex-shrink: 0;
 }
 
 .header {
@@ -141,4 +143,22 @@ button {
     font-size: 24px;
     font-weight: 700;
     align-self: flex-end;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 128px 12%;
+    padding: 64px 128px;
+}
+
+.call-to-action .headline {
+    color: #F9FAF8;
+    padding: 0;
+}
+
+.call-to-action button {
+    border: 3px solid #F9FAF8;
 }
