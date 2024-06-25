@@ -122,3 +122,23 @@ button {
     font-size: 16px;
     text-align: center;
 }
+
+.quote-container {
+    color: #1F2937;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 128px 25%;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.author {
+    font-size: 24px;
+    font-weight: 700;
+    align-self: flex-end;
+}
