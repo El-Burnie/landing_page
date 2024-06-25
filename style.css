@@ -152,6 +152,7 @@ button {
     align-items: center;
     margin: 128px 12%;
     padding: 64px 128px;
+    border-radius: 16px;
 }
 
 .call-to-action .headline {
